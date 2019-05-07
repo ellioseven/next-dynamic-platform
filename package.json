@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "start": "rm -rf ./node_modules && yarn install && next start"
+  },
+  "dependencies": {
+    "@provider/package": "https://github.com/ellioseven/next-dynamic-package.git",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
