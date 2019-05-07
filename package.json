@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "scripts": {
-    "start": "rm -rf ./node_modules && yarn install && next start"
+    "start": "rm -rf ./node_modules && yarn install && next build && next start"
   },
   "dependencies": {
     "@provider/package": "https://github.com/ellioseven/next-dynamic-package.git",
